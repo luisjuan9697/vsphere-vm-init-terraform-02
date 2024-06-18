@@ -29,10 +29,3 @@ terraform workspace select kubernetes
 terraform destroy --var-file=examples/kubernetes/terraform.tfvars
 ```
 
-# Destroy
-```
-terraform workspace select ubuntu
-terraform destroy --var-file=examples/ubuntu/terraform.tfvars
-```
-
-
